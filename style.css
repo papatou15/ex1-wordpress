@@ -405,7 +405,7 @@ COMPOSANTS
 }
 
 .cours__carte:nth-of-type(even) {
-  background-color: #cecdc5;
+  background-color: #315a75;
 }
 
 .cours__carte:hover {
@@ -415,6 +415,10 @@ COMPOSANTS
 .cours__carte h2 {
   color: #73726e;
   text-align: left;
+}
+
+.cours__carte:nth-of-type(even) h2 {
+  color: #ddd;
 }
 
 .cours__carte p {
@@ -461,8 +465,35 @@ COMPOSANTS
 
 @media screen and (min-width: 500px) {
   .util {
-    width: 20%;
+    width: 25%;
   }
+}
+
+.recherche {
+  position: relative;
+}
+
+.recherche_input {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 500px;
+}
+
+.recherche_button {
+  border: none;
+  outline: none;
+  top: 0;
+  right: 0;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0);
+  height: 50px;
+  width: 50px;
 }
 
 .site_barre {
@@ -513,6 +544,7 @@ COMPOSANTS
   display: block;
   padding: 3px;
   text-decoration: none;
+  transition: background-color 0.3s;
 }
 
 .menu-item a:hover {

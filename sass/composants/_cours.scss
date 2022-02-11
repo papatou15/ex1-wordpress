@@ -23,7 +23,7 @@
 }
 
 .cours__carte:nth-of-type(even){
-    background-color: #cecdc5;
+    background-color: #315a75;
 }
 
 .cours__carte:hover{
@@ -33,6 +33,10 @@
 .cours__carte h2{
     color: #73726e;
     text-align: left;
+}
+
+.cours__carte:nth-of-type(even) h2{
+    color: #ddd;
 }
 
 .cours__carte p{
