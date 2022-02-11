@@ -11,6 +11,7 @@
     transition: transform 0.3s;
     @media screen and (min-width : $largeur-media-tablette){
         display: none;
+        //font-size: 10px;
     }
 }
 
