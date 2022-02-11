@@ -339,15 +339,15 @@ html {
 ELEMENTS
 --------------------------------------------------------- */
 a {
-  color: #7070bd;
+  color: #c6c6ec;
 }
 
 a:visited {
-  color: #5b5bb9;
+  color: #383858;
 }
 
 a:hover, a:focus, a:active {
-  color: #323264;
+  color: #8b8bb8;
 }
 
 a:focus {
@@ -390,6 +390,7 @@ COMPOSANTS
   height: 75vh;
   border: 2px solid #f4f4ff;
   background-color: #b7b6af;
+  transition: all 0.3s;
 }
 
 @media screen and (min-width: 500px) {
@@ -410,6 +411,8 @@ COMPOSANTS
 
 .cours__carte:hover {
   box-shadow: 5px 15px 15px rgba(77, 36, 143, 0.6);
+  transform: translateY(-5px);
+  transition: all 0.3s;
 }
 
 .cours__carte h2 {
@@ -501,7 +504,7 @@ COMPOSANTS
 }
 
 .site_barre {
-  background-color: #d37fb7;
+  background-color: #944f7d;
 }
 
 #chkburger {

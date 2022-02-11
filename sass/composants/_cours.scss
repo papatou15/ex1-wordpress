@@ -20,6 +20,8 @@
 
     border: 2px solid rgb(244, 244, 255);
     background-color: #b7b6af;
+
+    transition: all 0.3s;
 }
 
 .cours__carte:nth-of-type(even){
@@ -28,6 +30,8 @@
 
 .cours__carte:hover{
     box-shadow: 5px 15px 15px rgba(77, 36, 143, 0.6);
+    transform: translateY(-5px);
+    transition: all 0.3s;
 }
 
 .cours__carte h2{
