@@ -1,0 +1,43 @@
+.cours{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cours__carte{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0 20px;
+    width: 100%;
+    @media screen and (min-width : $largeur-media-tablette) {
+        width: 45%;
+    }
+    @media screen and (min-width : $largeur-media-desktop) {
+        width: 20%;
+    }
+
+    border: 2px solid rgb(244, 244, 255);
+    background-color: #b7b6af;
+}
+
+.cours__carte:nth-of-type(even){
+    background-color: #cecdc5;
+}
+
+.cours__carte:hover{
+    box-shadow: 5px 15px 15px rgba(233, 233, 233, 0.6);
+}
+
+.cours__carte h2{
+    color: #73726e;
+    text-align: left;
+}
+
+.cours__carte p{
+    margin: 5px 0;
+}
+
+.cours__carte p:nth-of-type(1), .cours__carte p:nth-of-type(2){
+    font-weight: bold;
+}

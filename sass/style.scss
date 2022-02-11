@@ -1,0 +1,40 @@
+/**
+Theme name: Antoine-Ridard-EX1
+Author: Antoine Ridard
+Description: Un quatrieme exemple de thème dans le cadre du cours 4W4
+Version: 1.0
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+Text Domain: ex1_antoine_ridard
+*/
+
+/* ---------------------------------------------------------
+VARIABLES
+--------------------------------------------------------- */
+@import "variables/couleurs";
+@import "variables/structure";
+
+/* ---------------------------------------------------------
+INITIALISATION
+--------------------------------------------------------- */
+@import "initialisation/normalize";
+@import "initialisation/box-sizing";
+
+/* ---------------------------------------------------------
+ELEMENTS
+--------------------------------------------------------- */
+@import "elements/links";
+
+/* ---------------------------------------------------------
+COMPOSANTS
+--------------------------------------------------------- */
+@import "composants/carte";
+@import "composants/cours";
+@import "composants/footer";
+@import "composants/header";
+@import "composants/navigation";
+
+/* ---------------------------------------------------------
+LAYOUT
+--------------------------------------------------------- */
+@import "layout/layout";
